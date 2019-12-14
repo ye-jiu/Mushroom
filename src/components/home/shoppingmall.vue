@@ -10,8 +10,7 @@
     <div class="in">
       <div class="in-content" v-if="hehe">
         <div class="bei" v-for="(item , index) in hehe" :key="index">
-          <input type="checkbox" class="goux" @click="goux = !goux">
-          <!-- <input type="text"> -->
+          <input type="checkbox" class="goux" v-model="item.lock" @click="select(hehe)" />
           <div class="shangp">
             <div class="xiaotu">
               <img :src="item.src" />
@@ -41,9 +40,8 @@
       </div>
 
       <div class="bottom">
-        <!-- <van-button type="primary" @click="checkAll">全选</van-button> -->
-        <van-button type="info" @click="toggleAll">全选</van-button>
-        <!-- <input type="checkbox" id="box" @click="checkAll" v-model="checkall" /> -->
+        <input type="checkbox" v-model="isfalse" @click="cheall(hehe)" />
+        <input type="button" value="反选" @click="cheallbox(hehe)"/>
         <span class="q">0.00</span>
         <input type="button" value="结算" class="settlement" />
       </div>
@@ -58,24 +56,41 @@ export default {
       opp: "",
       count: 1,
       hehe: [],
-      zong:0,
-      dan:0
+      isfalse: false,
+      checked: []
     };
   },
   created() {
-    this.hehe = JSON.parse(window.localStorage.getItem("wu"));
-    // console.log(this.hehe);
+    this.hehe = JSON.parse(JSON.stringify(eval(window.localStorage.wu)));
+    // console.log(this.abc);
   },
   methods: {
-    goux(){
-      // console.log(123);
+    // 单选
+    select(val) {
+      // console.log(val);
+      let arr = Array.from(val);//把本地数据的伪数组数据转换为真数组
+      if (arr.filter(v => v.lock).length === arr.length - 1) {
+        //↑遍历之后判断购物车勾选数量是否等于存储数量
+        this.isfalse = true;
+      } else {
+        this.isfalse = false;
+      }
     },
-    checkAll() {
-      this.$refs.checkboxGroup.toggleAll(true);
+    // 全选↓
+    cheall(val) {
+      let arr = Array.from(val);//把本地数据的伪数组数据转换为真数组
+      arr.map(item => {//遍历里面的内容
+        item.lock = !this.isfalse;//获取到lock（false或true），使它=false或true
+
+      });
     },
-    toggleAll() {
-      // this.$refs.checkboxGroup.toggleAll();
-    },
+    // 反选↓
+    // cheallbox(val) {
+    //   let arr = Array.from(val);//把本地数据的伪数组数据转换为真数组
+    //   arr.map(item => {//遍历里面的内容
+    //     item.lock = !item.lock;//获取到lock（false或true），使它=false或true
+    //   });
+    // },
     jia: function(ev) {
       this.count++;
     },
@@ -127,7 +142,7 @@ export default {
   color: #666;
   line-height: 15px;
 
-   overflow: hidden;
+  overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;

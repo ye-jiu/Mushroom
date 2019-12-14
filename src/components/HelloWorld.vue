@@ -184,7 +184,7 @@ export default {
         src: this.$refs.img[0].src,
         price: this.$refs.price.innerHTML,
         title: this.$refs.title.innerHTML,
-        checked: false
+        lock: false
       });
       // console.log(this.gg);
       window.localStorage.setItem("wu", JSON.stringify(this.gg));
