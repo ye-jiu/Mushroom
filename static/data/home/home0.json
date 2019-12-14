@@ -1,0 +1,243 @@
+[{
+        "hehe": [{
+                "title": "热门选购",
+                "within": [{
+                        "url": "/static/image/f1.jpg",
+                        "span": "夹克"
+                    },
+                    {
+                        "url": "/static/image/f2.jpg",
+                        "span": "T恤"
+                    },
+                    {
+                        "url": "/static/image/f3.jpg",
+                        "span": "针织衣"
+                    },
+                    {
+                        "url": "/static/image/f4.jpg",
+                        "span": "衬衫"
+                    },
+                    {
+                        "url": "/static/image/f9.jpg",
+                        "span": "卫衣"
+                    },
+                    {
+                        "url": "/static/image/f6.jpg",
+                        "span": "风衣"
+                    },
+                    {
+                        "url": "/static/image/f7.jpg",
+                        "span": "牛仔裤"
+                    },
+                    {
+                        "url": "/static/image/f8.jpg",
+                        "span": "休闲裤"
+                    },
+                    {
+                        "url": "/static/image/f5.jpg",
+                        "span": "自营男装"
+                    }
+                ]
+            },
+            {
+                "title": "男士内搭",
+                "within": [{
+                        "url": "/static/image/f10.png",
+                        "span": "新品T恤"
+                    },
+                    {
+                        "url": "/static/image/f11.jpg",
+                        "span": "短袖T恤"
+                    },
+                    {
+                        "url": "/static/image/f12.jpg",
+                        "span": "新品衬衫"
+                    },
+                    {
+                        "url": "/static/image/f13.jpg",
+                        "span": "短袖衬衫"
+                    },
+                    {
+                        "url": "/static/image/f14.jpg",
+                        "span": "新品卫衣"
+                    },
+                    {
+                        "url": "/static/image/f15.jpg",
+                        "span": "连帽卫衣"
+                    },
+                    {
+                        "url": "/static/image/f16.jpg",
+                        "span": "潮牌卫衣"
+                    },
+                    {
+                        "url": "/static/image/f17.jpg",
+                        "span": "长衣T恤"
+                    },
+                    {
+                        "url": "/static/image/f18.jpg",
+                        "span": "长衣衬衫"
+                    },
+                    {
+                        "url": "/static/image/f19.jpg",
+                        "span": "免烫衬衫"
+                    },
+                    {
+                        "url": "/static/image/f20.jpg",
+                        "span": "针织衣"
+                    },
+                    {
+                        "url": "/static/image/f21.jpg",
+                        "span": "POLO衫"
+                    }
+                ]
+            },
+            {
+                "title": "男士外套",
+                "within": [{
+                        "url": "/static/image/f22.jpg",
+                        "span": "夹克"
+                    },
+                    {
+                        "url": "/static/image/f23.jpg",
+                        "span": "风衣"
+                    },
+                    {
+                        "url": "/static/image/f24.jpg",
+                        "span": "单西"
+                    },
+                    {
+                        "url": "/static/image/f25.jpg",
+                        "span": "牛仔外套"
+                    },
+                    {
+                        "url": "/static/image/f26.jpg",
+                        "span": "西服套装"
+                    },
+                    {
+                        "url": "/static/image/f27.jpg",
+                        "span": "毛呢大衣"
+                    },
+                    {
+                        "url": "/static/image/f28.jpg",
+                        "span": "真皮外套"
+                    },
+                    {
+                        "url": "/static/image/f29.jpg",
+                        "span": "仿皮皮衣"
+                    },
+                    {
+                        "url": "/static/image/f30.jpg",
+                        "span": "棒球服"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "hehe": [{
+                "title": "热卖分类",
+                "within": [{
+                        "url": "/static/image/f31.jpg",
+                        "span": "休闲鞋"
+                    },
+                    {
+                        "url": "/static/image/f32.jpg",
+                        "span": "皮鞋"
+                    },
+                    {
+                        "url": "/static/image/f33.jpg",
+                        "span": "男靴"
+                    },
+                    {
+                        "url": "/static/image/f34.jpg",
+                        "span": "帆布靴"
+                    },
+                    {
+                        "url": "/static/image/f35.jpg",
+                        "span": "板鞋"
+                    },
+                    {
+                        "url": "/static/image/f36.jpg",
+                        "span": "自营鞋靴"
+                    },
+                    {
+                        "url": "/static/image/f37.jpg",
+                        "span": "新品推荐"
+                    }
+                ]
+            },
+            {
+                "title": "流行男鞋",
+                "within": [{
+                        "url": "/static/image/f38.jpg",
+                        "span": "休闲鞋"
+                    },
+                    {
+                        "url": "/static/image/f39.jpg",
+                        "span": "休闲户外鞋"
+                    },
+                    {
+                        "url": "/static/image/f40.jpg",
+                        "span": "凉鞋"
+                    },
+                    {
+                        "url": "/static/image/f41.jpg",
+                        "span": "豆豆鞋"
+                    },
+                    {
+                        "url": "/static/image/f42.jpg",
+                        "span": "商务休闲鞋"
+                    },
+                    {
+                        "url": "/static/image/f43.jpg",
+                        "span": "传统布鞋"
+                    },
+                    {
+                        "url": "/static/image/f44.jpg",
+                        "span": "板鞋"
+                    },
+                    {
+                        "url": "/static/image/f45.jpg",
+                        "span": "正装鞋"
+                    },
+                    {
+                        "url": "/static/image/f46.jpg",
+                        "span": "增高鞋"
+                    },
+                    {
+                        "url": "/static/image/f47.jpg",
+                        "span": "拖鞋/人字拖"
+                    },
+                    {
+                        "url": "/static/image/f48.jpg",
+                        "span": "男鞋"
+                    },
+                    {
+                        "url": "/static/image/f49.jpg",
+                        "span": "乐福鞋"
+                    },
+                    {
+                        "url": "/static/image/f50.jpg",
+                        "span": "帆布鞋"
+                    },
+                    {
+                        "url": "/static/image/f51.jpg",
+                        "span": "工装鞋"
+                    },
+                    {
+                        "url": "/static/image/f52.jpg",
+                        "span": "鞋配件"
+                    },
+                    {
+                        "url": "/static/image/f55.jpg",
+                        "span": "雨鞋/雨靴"
+                    },
+                    {
+                        "url": "/static/image/f54.jpg",
+                        "span": "定制鞋"
+                    }
+                ]
+            }
+        ]
+    }
+]
